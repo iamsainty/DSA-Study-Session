@@ -20,14 +20,14 @@ public class DataType {
         // char -> 2 bytes (Unicode)
         // boolean -> true / false (JVM dependent)
 
-        byte b = 100;
-        short s = 1000;
-        int age = 21;
-        long population = 8000000000L;
-        float pi = 3.14f;
-        double cgpa = 8.35678;
-        char grade = 'A';
-        boolean isPlaced = false;
+        // byte b = 100;
+        // short s = 1000;
+        // int age = 21;
+        // long population = 8000000000L;
+        // float pi = 3.14f;
+        // double cgpa = 8.35678;
+        // char grade = 'A';
+        // boolean isPlaced = false;
 
         // Primitive variables are generally stored in Stack Memory.
        
@@ -40,7 +40,7 @@ public class DataType {
 
         // Array
 
-        int[] nums = new int[5];
+        // int[] nums = new int[5];
 
         // int vs Integer
         // int -> Primitive Data Type
@@ -63,14 +63,14 @@ public class DataType {
 
         // Variable Declaration
 
-        int marks;
+        // int marks;
 
         // Initialization
 
-        marks = 95;
+        // marks = 95;
 
         // Declaration + Initialization
 
-        int score = 100;
+        // int score = 100;
     }
 }

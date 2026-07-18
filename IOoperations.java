@@ -183,5 +183,7 @@ public class IOoperations {
         System.out.println(name);
 
         System.out.println(fullName);
+
+        sc.close();
     }
 }

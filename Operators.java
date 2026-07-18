@@ -65,7 +65,7 @@ public class Operators {
         // false || false -> false
         // otherwise -> true
 
-        System.out.println(true || false);
+        System.out.println(false || true);
         System.out.println(false || false);
 
         // NOT
@@ -132,6 +132,8 @@ public class Operators {
 
         int q = ++p;
 
+        System.out.println(q);
+
         // p = 11
         // q = 11
 
@@ -140,6 +142,7 @@ public class Operators {
         int m = 10;
 
         int n = m++;
+        System.out.println(n);
 
         // m = 11
         // n = 10
