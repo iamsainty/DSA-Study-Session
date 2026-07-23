@@ -1,24 +1,24 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
+void changeVal(vector<int> &vec)
+{
+    vector<int> newVec = {1, 2, 3, 4, 5};
+    vec = newVec;
+}
+
 int main()
 {
+    vector<int> vec = {1, 2, 3};
 
-    int bankbalance = 10000;
+    changeVal(vec);
 
-    // int* ptr 
-
-    int a = 10;
-    int* ptr = &a;
-
-    *ptr = 20;
-
-    cout << a << endl;
-    cout << ptr << endl;
-
-    cout << *ptr << endl;
-
+    for (int val : vec)
+    {
+        cout << val << " ";
+    }
 
     return 0;
 }

@@ -1,10 +1,48 @@
+import java.util.*;
+
 public class Function {
     public static void main(String[] args) {
 
+        // Function and Methods
+
+        // Function - Normal function created outside the class
+        // Method - Functions created inside the class
+
+        // Java has only method, no function 
+
+        // a - b;
+
+        // int a , iunt
+
+
+
+
+
+
+
+
+
+        // a - b;
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // sum()
+
+        
         // System.out.println("Hello");
         // System.out.println("Hello");
         // System.out.println("Hello");
-        // System.out.println("Hello");
+        // System.out.println("Hello"); <- 
         // System.out.println("Hello");
         // System.out.println("Hello");
         // System.out.println("Hello");
@@ -27,7 +65,38 @@ public class Function {
         // greet2("Priyanshu");
         // System.out.println(genOTP());
         // System.out.println(sum(4, 5));
+
+
+        List<Integer> list = new ArrayList<>();
+
+        list.add(1);
+        list.add(2);
+
+        changeVal(list);
+
+        for(int val : list){
+            System.out.println(val);
+        }
     }
+
+    public static void changeVal(List<Integer> list){
+
+        list.add(3);
+        
+        List<Integer> newList = new ArrayList<>();
+
+        newList.add(1);
+        newList.add(2);
+        newList.add(3);
+        newList.add(4);
+        newList.add(5);
+
+        list = newList;
+    }
+
+    // public static int sum(int a, int b){
+    //     return a - b;
+    // }
 
     // Function - To remove redundancy
 
@@ -50,6 +119,8 @@ public class Function {
 
     // // No Input No Return
     // public static void greet(){
+
+    // A()
     // System.out.println("Hello");
     // }
 
@@ -83,7 +154,6 @@ public class Function {
     public static void greet(String name, int a) {
         System.out.println("Hello" + name);
     }
-
 
     // Method - Defined within a class 
     // Function - Defined outside a class
