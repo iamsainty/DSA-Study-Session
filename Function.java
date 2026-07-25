@@ -3,6 +3,10 @@ import java.util.*;
 public class Function {
     public static void main(String[] args) {
 
+        for(String str : args){
+            System.out.println(str);
+        }
+
         // Function and Methods
 
         // Function - Normal function created outside the class
@@ -14,8 +18,17 @@ public class Function {
 
         // int a , iunt
 
+        // greet(, 0);
+
+        // Garbage Colleactor - GC
+
+        List<Integer> list = new ArrayList<>();
 
 
+        list = new ArrayList<>();
+
+        
+        
 
 
 
@@ -66,23 +79,39 @@ public class Function {
         // System.out.println(genOTP());
         // System.out.println(sum(4, 5));
 
+        // vector<int> vec;
 
-        List<Integer> list = new ArrayList<>();
 
-        list.add(1);
-        list.add(2);
+        // List<Integer> list = new ArrayList<>();
 
-        changeVal(list);
+        // list.add(1);
+        // list.add(2);
 
-        for(int val : list){
-            System.out.println(val);
-        }
+        // changeVal(list);
+
+        // for(int val : list){
+        //     System.out.println(val);
+        // }
+
+
+
+    // int a = 10;
+
+    
+
+    // int* p = &a;
+
+    // MLE - Memory 
+
+    // 256 MB 
+
+
     }
 
     public static void changeVal(List<Integer> list){
 
         list.add(3);
-        
+
         List<Integer> newList = new ArrayList<>();
 
         newList.add(1);
@@ -164,7 +193,7 @@ public class Function {
     // Call by Value - Copy is passed to function / method 
     // Call by reference - Original value itself is passed
 
-    // Java do not have Call by value, Java only has Call by reference
+    // Java do not have Call by reference, Java only has Call by value
 
     int[] arr = new int[10];
 
