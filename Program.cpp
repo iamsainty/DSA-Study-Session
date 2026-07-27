@@ -53,7 +53,10 @@ int main()
 
 
 
+    int arr[5] = {1,2,3,4,5};
 
+    cout << arr << endl; //-- 0x16d3c6450
+    cout << *(arr + 1) << endl; //-- 0x16d3c6450
 
 
 
