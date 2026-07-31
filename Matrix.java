@@ -3,6 +3,12 @@ import java.util.Scanner;
 public class Matrix {
     public static void main(String[] args) {
 
+
+        // single integer - can be stored in int
+        // collection of integers - int[] - can be stored in arrays
+        // collection of collection of integers - int[][] - 2d array
+
+
         // 1D - Array
         // if we had to store marks of students
 
