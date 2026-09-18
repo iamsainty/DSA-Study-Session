@@ -71,6 +71,18 @@ class Encapsulation {
 
 // int[] arr = new int[2];
 
+// Stack -> arr = 1000 (memory address of arr itself is 100)
+// Stack -> arr = 1000 (memory address of arr itself is 104)
+
+
+
+
+// 2000, 2004, 2008
+
+// Heap -> new array of size n -> 1000 -> {0, 0, 0, 0, 0}
+// 1000, 1004, 1008
+
+
 
 
 class Employee {
@@ -89,7 +101,7 @@ class Employee {
     }
 
     int[] getArr(){
-        return arr;
+        return arr.clone();
     }
 
     // List<Integer> getList(){
