@@ -1,0 +1,2 @@
+        upi.pay();
+        card.pay();
