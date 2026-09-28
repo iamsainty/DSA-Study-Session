@@ -1,2 +1,1 @@
-        upi.pay();
-        card.pay();
+            System.out.println(ex.getStackTrace());
