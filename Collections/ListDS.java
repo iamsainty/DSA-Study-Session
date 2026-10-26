@@ -6,6 +6,67 @@ import java.util.Objects;
 // MAIN CLASS
 // ============================================================
 
+// 10% off on item 1
+
+// 20% off on itme 1, 2
+
+
+// 5% off on item 3 
+
+
+// --------
+
+
+
+// FLAT disc of 200 Rs if order value is greater than 500
+
+// solve(int[] items, int[] discouts, int[] prices, int[] quantity){
+
+// }
+
+// class Item{
+//     int qty;
+//     float price;
+    
+//     List<Discount> discount;
+
+//     public Item(int qty, float price){
+//         this.qty = qty;
+//         this.price = price;
+
+//         discount = new ArrayList<>();
+//     }
+// }
+
+// Item item1 = new Item(2, 10);
+
+// Item item2 = new Item(4, 20);
+
+// item1.discount.add(d2);
+// item2.discount.add(d2);
+
+
+// item 1 = new item()
+
+// class Discount{
+//     int discountpercentage;
+//     int id;
+
+//     public Discount(int discountpercentage){
+//         this.discountpercentage = discountpercentage;
+//     }
+// }
+
+// Discount d2 = new Discount(20);
+
+
+
+
+// 20%
+
+// item 2 = new item();
+
+
 public class ListDS {
 
     public static void main(String[] args) {
@@ -43,7 +104,7 @@ public class ListDS {
 
         linkedList.add(1, 15);
 
-        System.out.println(linkedList);
+        System.out.println(linkedList); // linkedList.toString()
         System.out.println("Size: " + linkedList.size());
         System.out.println("Element at index 2: " + linkedList.get(2));
 
@@ -651,7 +712,7 @@ class LinkedList<T> implements List<T> {
     @Override
     public String toString() {
 
-        StringBuilder result = new StringBuilder("[");
+        StringBuilder result = new StringBuilder("{");
 
         Node<T> current = head;
 
@@ -666,7 +727,7 @@ class LinkedList<T> implements List<T> {
             current = current.next;
         }
 
-        result.append("]");
+        result.append("}");
 
         return result.toString();
     }
@@ -749,6 +810,19 @@ class Vector<T> implements List<T> {
         return data.toString();
     }
 }
+
+// ArrayList - arr
+
+// [1,2,3]
+
+// arr[0] += 3;
+
+// arr[0] += 2;
+
+
+// Vector - arr
+
+
 
 // ============================================================
 // STACK
